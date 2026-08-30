@@ -1,0 +1,23 @@
+{
+  "name": "api_automation_with_schemas-schemavalidator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthiv2806/APi_automation_with_schemas-schemaValidator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parthiv2806/APi_automation_with_schemas-schemaValidator/issues"
+  },
+  "homepage": "https://github.com/parthiv2806/APi_automation_with_schemas-schemaValidator#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0"
+  }
+}

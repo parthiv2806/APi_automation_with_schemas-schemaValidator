@@ -1,14 +1,9 @@
 import { request } from "@playwright/test";
-import fs from "fs";
-
-const AUTH_FILE = "playwright/.auth/user.json";
 
 let apicontext = null;
 
 export async function initApiClient() {
-  apicontext = await request.newContext({
-    storageState: fs.existsSync(AUTH_FILE) ? AUTH_FILE : undefined,
-  });
+  apicontext = await request.newContext({});
 }
 
 export async function get(url) {
